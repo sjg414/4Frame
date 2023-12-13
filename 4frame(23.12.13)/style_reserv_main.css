@@ -1,0 +1,28 @@
+
+#reservation_agree{
+    allign : center;
+    margin-left: 400px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+.agree_span {
+    color: red;
+    font-weight: bold;
+}
+
+.member_table{
+    border: 2px solid black;
+}
+
+.agree_table{
+    width: 400px;
+    border: 1px solid #444444;
+    letter-spacing: 5px;
+    background-color: #fafad2;
+}
+
+.agree_table tr{
+    border: 1px solid black;
+}

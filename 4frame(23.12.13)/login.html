@@ -1,0 +1,43 @@
+﻿<!DOCTYPE HTML>
+<!--
+	로그인 화면(첫 화면)
+-->
+<html>
+<head>
+    <title>SMU 전산관 강의실 예약 시스템</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-panels.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="IDsave.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel-noscript.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-desktop.css" />
+    </noscript>
+</head>
+<body class="homepage">
+    <div class="login_div">
+        <form name="login_form" method="post" action="login_check.php">
+            <h4 id="login_h4">SMU 전산관 강의실 예약시스템</h4>
+            <div class="colorgraph"><hr id="login_hr0"/><hr id="login_hr1"/><hr id="login_hr2"/><hr id="login_hr3"/><hr id="login_hr4"/><hr id="login_hr5"/><hr id="login_hr6"/><hr id="login_hr7"/><hr id="login_hr8"/><hr id="login_hr9"/></div>
+            <div class="input_div">
+                <input type="text" class="login_input" name="login_id" placeholder="Username" required="" autofocus="">
+                <input type="password" class="login_input" name="login_password" placeholder="Password" required="">
+            </div><br>
+            <hr id="login_hr10" />
+            <div class="id_save">
+                <input type="checkbox" id="idSaveCheck" class="prettyCheckable" >
+                <label for="idSaveCheck">아이디 기억하기</label>
+            </div>
+            <button class="login_btn"  name="login_Submit" value="Login" type="Submit">Login</button><br><br>
+            <a href="signup.html" id="join_linker">회원가입</a>
+        </form>
+    </div>
+</body>
+</html>

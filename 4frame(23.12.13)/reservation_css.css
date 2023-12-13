@@ -1,0 +1,17 @@
+
+#time_table {
+    border: 2px solid black;
+}
+
+#time_table td{
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 5px;
+}
+#class_image{
+    width: 500px;
+    height: 400px;
+    background-image: url(images/img12.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
